@@ -1,0 +1,102 @@
+<h3>angular 11 fulll corase in project creat<a href="https://youtu.be/lFdkArKolss">link</a></h3>
+
+api ki jrurt ho to link --------jsonplaceholder.typicode.com/photos/?albumid=4
+
+ 
+-------------------------------kse v computer me git ko use krne ke liy sbse phle git comend me ------------------------------------------------
+
+git config --global user.name gyanendra dubey
+
+git config --global user.email (yha pe apna email lkhhte h )
+
+
+eske bad chack krne ke liye data
+
+
+git config --global user.name
+git config --global user.email
+ 
+
+ ----------------------------------------------------/////////////////////////////-----------------------------------
+
+touch .gitignore
+	|-----node_modules/    jo file nhe chahiye use nhe veje ge
+
+git init
+
+git add file_name  		AGR GIT ADD KR DETE HE  TO SARE FILE ADD HO JATE H LEKIN AGR HM GIT ADD 			KE BAD FILE KA NAME LIKHHATE H TO VHI FILE ADD HOTA H
+
+git commit -m "first commit"
+
+git branch -M main     YE DEFOULT BRANCH HO GA 
+
+git branch               KIS BRANCH PE H YH DEHKKANE KE LIY KRTE H / YA KTNE BRANCH BNA CHUKE H BRANCH  YE BI DEKHHA SKTE H  
+
+
+git checkout -b  		JA BRANCH KA NAME DALE GE US BRANCH PE PHUCH JAYE GE LEKIN PHLE 			BRANCH KO KMENENT KRNA HOGO OR SAVE KRNA HOGA
+
+   
+
+git checkout  main
+
+git merge branch_name      JIS BRANCH ME H OR JO BRANCH KO MARGE KRNA CHAHTE H USE LIKHHATE H  OR BRANCH MERGE HO JATA H // MERGE KRNE KE BAD COMMIT KRNA HOTA H COMPLSRI H 
+
+git status     kon sa kod add ho CHUKE h ye dekhha skte h 
+----------------------------------------------------------------SORT CUT----------------------------------------------------------------------------------
+
+git commit -am "message"    ESME ADD V HO JAYE GO OUR COMENT BI HO JAYE GA
+
+git checkout -b branch_name     EK NEW BRANCH BN V JAYEGA OUR US BRANCH PE PHUCH V JAYE GA 
+
+git checkout -f             krne pr jha se ap suru kiye the vha pe vaps chla jaye go /
+ mtlb ke ap ne code likhha  our   vh code kam nhi kr rha h to ap iska git checkout -f  uj kr ke vaps vi ja skte h jha  se ap ne survat ke thi
+
+
+
+----------------------------------------------------------------SORT CUT----------------------------------------------------------------------------------
+
+touch.gitignore      ise lkhhane pr ape folder me ek file jnret hoga / or usi file me hm jis v file_name lkhhate h vo file nhi save hota h / or isme file ka name alg alg trike se likhha jata h 
+
+
+git rm --cached file_name                 ise uj krne pr jo bi abi commit kya tha use vaps la skte h fr usme chang kr ke use save kr skte h 
+
+
+
+
+
+
+git branch -d branchname ------ JB HME BRANCH KO DELET KRNA HOT H TO 
+
+  -- git log                                   sie hm dekhha skte h ke kitne bar kment kya h 
+
+git clone    		se data ko git se apne computer pe late h 
+
+git diff      ES SE HM DEKHHA SKTE H KI KOI FILE kO ADD KYA H KI NI /line by line dkhh skte h  ke phle me kya tha or ob kya chang kya h yh lin by lin btata h / GIT ADD KRNE KE BAD JO CHANG KRTE H USE HM GIT DIFF SE DEKHH SKTE H 
+
+----------------------------------------------------------------GIT SE GITHUB ME  DATA DENE KE LIYE HO TI ----------------------------------------------------------------------------------
+git rmote add origin https://     ye data sbse phle github se he milta h jse keval ek bar save krna hot a uske bad vo file ko apne ap didekt kr leta 
+
+git push -u origin master    KRNE PR SARA DATA GITHUB PR CHALA JATA H
+
+----------------------------------------------------------------GIT SE GITHUB ME  DATA DENE KE LIYE HO TI ----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+----------------------------------------------------------------GITHUB SE DATA LENA HO TI ----------------------------------------------------------------------------------
+1 STAP=>     git remote add origin https:    YE HME SA GITHUB PE MILTA H CODE PE CLICK KRNE PR EK POPEP KHHULT H US PUPOS ME HTTPS LINK PR PURA CODE HOTA H USE KAPI KR KE APNE COMPUTER ME COMEND ME LIKHHATE H TO VO SARA SO HO JATA H
+
+2 STAP=> git push -u origin master    USKE BAD SARA SAVE HONE LGEGA 
+
+                             **********   and  *********************
+
+git clone https:           YE HME SA GITHUB PE MILTA H CODE PE CLICK KRNE PR EK POPEP KHHULT H US PUPOS ME HTTPS LINK PR PURA CODE HOTA H USE KAPI KR KE APNE COMPUTER ME COMEND ME LIKHHATE H TO VO SARA SO HO JATA H
+
+
+----------------------------------------------------------------GITHUB SE DATA LENA HO TI ----------------------------------------------------------------------------------
+git log           ye ap ko sare kment ko dikhhaye ga jo ise phle ap ne kya tha     is se niklne ke liye  Q    pres krte h
+ 
+git log -p -1     ye ap ko keval ek kment dikhhaye go  is se niklne ke liye  Q pres krte h

@@ -1,0 +1,7 @@
+shift + alt + click   
+
+ctrl + f2
+
+alt+shift + f
+
+ctrl + k + t

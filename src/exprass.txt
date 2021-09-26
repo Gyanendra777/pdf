@@ -1,0 +1,14 @@
+
+npm init
+npm i express  -g
+npm install express --save
+npm i express mongoose
+npm i body-parser
+
+=>express me jb hm data pass krna hota h to hme body-parser ka youj krte h 
+
+npm install body-parser
+
+
+
+

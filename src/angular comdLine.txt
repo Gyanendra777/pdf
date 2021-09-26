@@ -1,0 +1,33 @@
+ng build --prod  => 7 file
+
+
+ng build --aot   =>  12 file 
+
+ng build   =>  12 file 
+
+
+cli command reference in hindi
+ 
+wabside ng bootstrap
+0 npm uninstall -g angular-cli
+
+0 ng add @ng-bootstrap/ng-bootstrap
+
+ng generate module <MODULE_NAME> --routing --module app.module
+ng g m [module-name] --routing 
+
+1 ng new  ------------- project creat krne ke kam ata h
+2 ng serve   --------------ye kamand project ko kmpail krne ke kam ate h
+3 ng serve --o -----------project ko kmpail krna and run krta h
+4 ng build  -------------- project ko bundel creat drta h
+	4 ng build --prod 
+	4 ng build --aot
+5 ng update---------- project update ho jata h 
+6 ng g c componentName
+7 ng g c componentName  --skipTests=true  --------------- component me spec.ts file nhe lod ho ga
+7.1 ng g c componentName  --skipTests=true -css=true  --------------- component me spec.ts file and css  nhe lod ho ga
+8 ng g c componentName --s   ------------- component me css file nhi lod ho ga
+9 ng g s service --------------service component
+10 ng g s serviceName --skipTests=true---------------------service me hm spec.ts file ko load nhi krte h
+11 ng g m componentModel ---------------component me module set krte h 
+12 ng g cl componentmodelName --type=model---------------module me h spec.ts file ko v creat krte h 

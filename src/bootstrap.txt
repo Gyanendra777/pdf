@@ -1,0 +1,10 @@
+npm install bootstrap
+
+ng add @ng-bootstrap/ng-bootstrap
+
+
+
+"styles": [
+            "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "src/styles.css"
+          ]
