@@ -24,7 +24,10 @@ ng g m [module-name] --routing
 	4 ng build --aot
 5 ng update---------- project update ho jata h 
 6 ng g c componentName
-7 ng g c componentName  --skipTests=true  --------------- component me spec.ts file nhe lod ho ga
+6 -ng g c componentName -is  component me inline css creat hoga 
+6 --ng g c componentName -it component me inline html creat hoga
+6 ---ng g c componentName -is -it --skipTests=true   component me keval ek file hi save soga .ts file lode hoga
+7 ----ng g c componentName  --skipTests=true  --------------- component me spec.ts file nhe lod ho ga
 7.1 ng g c componentName  --skipTests=true -css=true  --------------- component me spec.ts file and css  nhe lod ho ga
 8 ng g c componentName --s   ------------- component me css file nhi lod ho ga
 9 ng g s service --------------service component
