@@ -1,0 +1,38 @@
+angular me vese to jb hm web side ko hm lod krte h to usi smya sara data lode ho jata h or jb hme use dubara deta server se magate h to vh ajx ke throw dta ata h our jata h
+
+data binding 
+1 property binding
+	1 string interpolation {{}}
+	2 property binding 
+	       <input>
+		1 [value]="compunent se laya hua dat"
+		2 bind-value="compunent se laya hua dat"
+ 	3 style binding
+		1 [style.color]="compunent se laya hua dat"
+			1 style binding me [style.]complsri h uske bad jo vi style dena h use aplai kya jata h 
+		2 [ngStyle] ="{'color'='red',  ''=''  ,   }"
+	4 class binding
+		single Class
+			1 [class.h1]="compunent se laya hua dat"
+		mltipl Class
+			2 [ngClass]="{ 'className':'compunent se laya hua dat', 'secend class':'mpunent se 				laya hua dat' }"
+======
+
+
+2 event binding
+	1 event binding 
+		1 (click)="likechange()"
+		2 on-click="likechange()"
+	2 event propagation
+	3 custom event binding
+
+3 two-way binding
+	{{compunent se laya hua dat}}
+	1 [(ngModel)]="compunent se laya hua dat"
+	2 bindon-ngModel="compunent se laya hua dat"
+
+
+			
+
+
+
